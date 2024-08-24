@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Game Of Life</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <button id="start-btn">START</button>
+            <button id="stop-btn">STOP</button>
+            <button id="next-gen-btn">NEXT GEN</button>
+            <button id="clear-btn">CLEAR</button>
+
+            <div id="slider-container">
+                <input type="range" min="20" max="100" value="50" id="grid-size-range">
+                <div id="slider-value">50</div>
+            </div>
+        </div>
+
+        <div id="board"></div>
+    </body>
+</html>
